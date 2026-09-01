@@ -10,4 +10,4 @@ Part 1 was again easy, but part 2 had a PEBCAK.  I didn't understand that when t
 I'm learning I should be trying to make these solutions modular on part 1 since part 2 seems to be adjusting my solution to select for n somethings every time.  But it was easier this time. This time I went directly to a scratch pad and worked out the logic first and then implemented it.
 
 ## Day 4
-Part 1 was harder than I expected.  I switched up X and Y which was giving me invalid inputs. Once resolved it solved easy-peasy.  
+Part 1 was harder than I expected.  I switched up X and Y which was giving me invalid inputs. Once resolved it solved easy-peasy.  Part 2 was a simple addition, I just had to emulate a do-while loop and repeat the part 1 solution until it did an iteration that didn't make any changes.
