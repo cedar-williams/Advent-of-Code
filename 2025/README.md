@@ -11,3 +11,6 @@ I'm learning I should be trying to make these solutions modular on part 1 since 
 
 ## Day 4
 Part 1 was harder than I expected.  I switched up X and Y which was giving me invalid inputs. Once resolved it solved easy-peasy.  Part 2 was a simple addition, I just had to emulate a do-while loop and repeat the part 1 solution until it did an iteration that didn't make any changes.
+
+## Day 5
+The hardest part was figuring out how to easily eval the id's against the ranges.  I think there's probably a faster way to do this, such as collapsing the ranges down, but for puzzle solving this works fine.
