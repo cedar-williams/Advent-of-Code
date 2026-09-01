@@ -14,3 +14,4 @@ Part 1 was harder than I expected.  I switched up X and Y which was giving me in
 
 ## Day 5
 The hardest part was figuring out how to easily eval the id's against the ranges.  I think there's probably a faster way to do this, such as collapsing the ranges down, but for puzzle solving this works fine.
+Part 2, I spoke too soon. I first tried solving this by mapping each possible value to a dict so there were no duplicates.  This worked for the test case but for the actual problem it was prohibitively slow.  Instead, I wrote some methods to collapse the valid ID's so there were no overlaps then calculate how many values each encompassed.
